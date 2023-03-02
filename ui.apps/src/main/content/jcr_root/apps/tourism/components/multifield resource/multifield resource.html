@@ -1,0 +1,11 @@
+<sly data-sly-use.model="com.adobe.tourism.core.models.MultifieldResource"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.quickLinks="${model.quickLinks}"
+     class="cmp-title">
+<div class="aem-GridColumn aem-GridColumn--default--11 top-nav-link-wrapper sw-quicklinks-title">${properties.title}</div>
+    <div class='sw-row'>
+        <ul class="top-nav-item sw-quicklinks">
+            <li class="sw-quicklink-list" data-sly-repeat.links="${model.quickLinks}"><a class="top-nav-link" href="${links.linkURL}"> ${links.linkLabel} </a> </li>
+        </ul>        
+    </div>
+</sly>
