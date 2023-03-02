@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/tourism/clientlibs"/>
+    <filter root="/apps/tourism/components"/>
+    <filter root="/apps/tourism/i18n"/>
+</workspaceFilter>
