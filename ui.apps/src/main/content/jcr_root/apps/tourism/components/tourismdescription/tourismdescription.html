@@ -1,0 +1,10 @@
+<div data-sly-use.descp="com.adobe.tourism.core.models.impl.TourismDescriptionImpl"</div>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='tourism.website'}"/>
+</sly>
+  <div class="Description">
+                        <h1 data-sly-test="${descp.title}" class="mb-2">${descp.title}</h1>
+                        <h3 data-sly-test="${descp.text}">${descp.text @ context='html'}</h3>
+                    </div>
+
+
