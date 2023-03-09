@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-03-09T18:41:53.798+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/tourism/settings/wcm/templates/xf-web-variation"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HeaderExpmanager"
+        sling:resourceType="tourism/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tourism/components/container"
+            layout="responsiveGrid">
+            <tourismlogo
+                jcr:created="{Date}2023-03-09T18:29:11.725+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-09T18:41:53.794+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tourism/components/tourismlogo"
+                img="/content/dam/tourism/TRAVEL_TOURISM_LOGO-02.jpg"/>
+            <multifield_resource
+                jcr:created="{Date}2023-03-09T18:29:40.695+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-09T18:30:18.137+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tourism/components/multifield resource">
+                <quickLinks jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        linkLabel="About Us "
+                        linkURL="/content/campaigns/we-retail/master"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        linkLabel="Contact Us"
+                        linkURL="/content/communities/templates/basetemplate/messaging"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        linkLabel="Information"
+                        linkURL="/content/community-components/en/activitystreams"/>
+                </quickLinks>
+            </multifield_resource>
+        </root>
+    </jcr:content>
+</jcr:root>
