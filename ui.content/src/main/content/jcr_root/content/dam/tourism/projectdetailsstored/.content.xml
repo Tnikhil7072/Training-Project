@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8e131117-d723-4af4-9121-ac4f0a472712">
+    <jcr:content
+        cq:name="projectdetailsstored"
+        cq:parentPath="/content/dam/tourism"
+        jcr:lastModified="{Date}2023-03-10T13:07:56.930+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="projectdetailsstored"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-03-10T13:07:56.930+05:30">
+        <data
+            cq:model="/conf/tourism/settings/dam/cfm/models/tourismstoredcontent"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                abouttourism="Study each of the definition given on page 1. Can you match these with the examples in the table? What kind of tourism is it? What type of travel is it? Note that some examples might fit into more than one category."
+                abouttourism_x0040_LastModified="{Date}2023-03-10T13:05:21.142+05:30"
+                tourism="Tourism is a social, cultural and economic phenomenon which entails the movement of people to countries or places outside their usual environment for personal or business/professional purposes."
+                tourism_x0040_LastModified="{Date}2023-03-10T13:02:29.394+05:30"
+                vactingPlaces="[Beach Tourism : India’s vast coastline and islands provides ample opportunities for fun packed tourism. Kerala\, Goa\, Andaman &amp; Nicobar Islands\, Lakshadweep islands attract tourists in large numbers all around the year.,Cultural tourism : India is known for its rich cultural heritage and an element of mysticism\, which is why tourists come to India to experience it for themselves. The various fairs and festivals that tourists can visit in India are the Pushkar fair (Rajas,Eco tourism : Among the types of tourism in India\, ecotourism have grown recently. Ecotourism entails the sustainable preservation of a naturally endowed area or region. This is becoming more and more significant for the ecological development of all regi,Medical tourism : Tourists from all over the world have been thronging India to avail themselves of cost-effective but superior quality healthcare in terms of surgical procedures and general medical attention. There are several medical institutes in the c,Wildlife tourism : India has a rich forest cover which has some beautiful and exotic species of wildlife – some of which that are even endangered and very rare. This has boosted wildlife tourism in India. The places where a foreign tourist can go for wild]"
+                vactingPlaces_x0040_LastModified="{Date}2023-03-10T13:07:56.902+05:30"
+                vactiongon="{Date}2023-03-10T13:00:08.000+05:30"
+                vactiongon_x0040_LastModified="{Date}2023-03-10T13:07:56.903+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
