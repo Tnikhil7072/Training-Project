@@ -1,0 +1,11 @@
+<h1>Getting Tourism Information By Using OSGi Config</h1> 
+<div data-sly-use.tourismConfig="com.adobe.tourism.core.models.TourismConfigModel"></div>
+<div><p>Tourism Place :    <b>${tourismConfig.tourismPlace}</b></p></div>
+<di><p>Capacity Seats :    <b>${tourismConfig.capacitySeats}</b></p></div>
+<div><p>FoodAvalible  :    <b>${tourismConfig.foodAvalible}</b></p></div>
+<div><p>Run Mode      :    <b>${tourismConfig.runModes}</b></p></div>
+
+<div><b>Countries</b></div>
+<ul data-sly-list="${tourismConfig.countries}">
+    <li>${item}</li>
+<ul>
