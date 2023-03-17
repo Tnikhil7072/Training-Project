@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-03-17T18:00:05.757+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/tourism/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tourism Footer"
+        sling:resourceType="tourism/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tourism/components/container"
+            layout="responsiveGrid">
+            <tourism_footer
+                jcr:created="{Date}2023-03-17T17:58:55.773+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-17T18:00:05.753+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tourism/components/tourism footer"
+                img="/content/dam/tourism/TRAVEL_TOURISM_LOGO-02.jpg">
+                <quickLinks jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        linkLabel="About Us "
+                        linkURL="/content/catalogs/we-retail"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        linkLabel="Contact Us"
+                        linkURL="/content/community/badging"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        linkLabel="Information"
+                        linkURL="/content/communities/sitesettingsnav"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        linkLabel="events"
+                        linkURL="/content/core-components-examples/library/carousel"/>
+                </quickLinks>
+            </tourism_footer>
+        </root>
+    </jcr:content>
+</jcr:root>
