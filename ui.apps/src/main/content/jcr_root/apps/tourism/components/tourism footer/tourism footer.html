@@ -1,0 +1,15 @@
+<sly data-sly-use.model="com.adobe.tourism.core.models.TourismFooterModel"></sly>
+
+<div class="logo">
+<a href="/na/en.html" class="link"> <img class="image"
+src="${model.img}"
+alt="header-logo.png"/>
+</a>
+</div>
+    <div class='sw-row'>
+        <ul class="top-nav-item sw-quicklinks">
+            <div class="sw-quicklink-list" data-sly-repeat.links="${model.quickLinks}"><a class="top-nav-link" href="${links.linkURL}"> ${links.linkLabel}</a>
+        </ul>        
+    </div>
+</sly>
+</div>
