@@ -1,0 +1,29 @@
+This is the sample component to test the servlet </br></br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<form>                                            
+    <input type="text" id="st-search-input" class="st-search-input search-field" /> </br></br>
+    <input type="text" id="st-search-path" class="st-search-input search-field" /></br></br>
+    <button  id="demo" onclick="myFunction()">Search</button>
+    <script>
+        function myFunction() {
+        var param1 = $("#st-search-input").val();
+        var param2 = $("#st-search-path").val();
+                $.ajax({
+                    type : "GET",
+                    url : '/bin/sampleservlet',
+                    data : {
+                      prop : param1,
+                      path : param2,
+                    },
+                    success : function(data, textStatus, jqXHR) {
+                    			alert("Response from the servlet is : " +  data);
+                                console.log("inside success and the data receveived from the servlet is : " + data);
+                                },
+                    error : function(XMLHttpRequest, textStatus, errorThrown) {
+                                console.log("inside error and the data receveived from the servlet is : " + errorThrown);
+                
+                    }
+                });
+		}
+     </script>
+</form>
